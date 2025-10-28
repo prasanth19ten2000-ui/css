@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/962ed3015d.js" crossorigin="anonymous"></script>
+
+    <title>basic project</title>
+
+    <style>
+        body {
+            margin: 0px;
+            background-color: rgb(63, 61, 59);
+            overflow-x: hidden;
+        }
+
+        @media screen and (max-width: 500px) {
+            body {
+                background-color: rgb(28, 28, 26);
+            }
+
+        }
+
+        h1 {
+            background-color: rgb(126, 49, 49);
+            color: rgb(221, 185, 185);
+            text-align: center;
+            font-family: "Abril Fatface", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .fa-list {
+            position: relative;
+            color: white;
+            top: -50px;
+            left: 95%;
+        }
+
+        .fa-house {
+            position: relative;
+            color: white;
+            top: -50px;
+            left: 0%;
+        }
+
+
+
+
+
+
+        div {
+            display: flex;
+            background-color: rgb(180, 177, 170);
+            margin: 20px;
+            flex-wrap: wrap;
+
+
+        }
+
+
+
+        .div1 {
+            width: 240px;
+            height: 325px;
+            background-color: rgb(126, 49, 49);
+            box-shadow: -5px 5px 10px 10px rgb(152, 136, 112);
+            border-radius: 10%;
+            color: white;
+            text-align: center;
+            padding: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .div1:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+
+        .slider-track {
+            display: flex;
+
+            gap: 40px;
+            animation: scrollInfinite 40s linear infinite;
+            width: max-content;
+            background-color: rgb(121, 119, 119);
+        }
+
+
+        .frame img {
+            width: 280px;
+            height: 325px;
+            border-radius: 80px;
+            object-fit: cover;
+            font-weight: bold;
+            background-color: black;
+        }
+
+        @keyframes scrollInfinite {
+            0% {
+                transform: translateX(0%);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .div2 {
+            width: 280px;
+            height: 325px;
+            background-color: rgb(126, 49, 49);
+            box-shadow: -5px 5px 10px 10px rgb(152, 136, 112);
+            border-radius: 10%;
+            color: white;
+            text-align: center;
+            padding: auto;
+            float: left;
+        }
+
+        .div2:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+
+        }
+
+        .div3 {
+            width: 280px;
+            height: 325px;
+            background-color: rgb(126, 49, 49);
+            box-shadow: -5px 5px 10px 10px rgb(152, 136, 112);
+            border-radius: 10%;
+            color: white;
+            text-align: center;
+            padding: auto;
+            float: right;
+        }
+
+        .div3:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+        }
+
+        h4 {
+            font-size: 1cm;
+            color: rgb(247, 251, 254);
+            margin-top: 200px;
+        }
+
+
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: rgb(126, 49, 49);
+            padding: 1em;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script>window.alert("welcome to Hukum Restaurant")</script>
+
+
+    <h1> HUKUM &nbsp;RESTAURANT </h1>
+    <i class="fa-solid fa-list"></i>
+    <i class="fa-solid fa-house"></i>
+    <div class="main">
+        <div class="div1">
+            <img src="hyderabad chicken_dum_biryani.jpg" alt="hy briyani" height="210px" width="210px">
+            <p>"Hyderabadi Chicken Dum Biryani is one of the easiest and simplest yet amazingly delicious."
+            </p>
+        </div>
+
+        <div class="div1">
+            <img src="hy mutton briyani.webp" alt="mutton briyani" height="210px" width="210px">
+            <p> "Traditional Hyderabadi Mutton biryani stands as one of the most flavorful biryani in the world."
+
+            </p>
+        </div>
+
+        <div class="div1">
+            <img src="chicken-biryani img.jpg" alt="chicken dum briyani" height="210px" width="210px">
+            <p>"The Biryani is prepared from seragasambaa rice mixed with several spices and cooked in a special way."
+
+            </p>
+        </div>
+
+
+        <div class="div1">
+            <img src="Prawns-Biryani-img.jpg" alt="prawn briyani" height="210px" width="210px">
+            <p>"The perfect blend of spice and seafood makes prawn biryani a true delight".</p>
+        </div>
+
+        <div class="div1">
+            <img src="fish-dum-biryani.webp" alt="thinking" height="210px" width="210px">
+            <p>"spice up your life with a plate of fish briyani delight".</p>
+        </div>
+    </div>
+    <div class="slider-track">
+        <div class="frame">Where every flavor tells a story.
+            For the love of delicious food.
+            Sensory indulgence unlocked.
+            Your culinary adventure awaits.
+            Low cost. High quality.
+            We are always here to serve you.
+            Life is short, make it sweet.
+            A taste you'll remember.</div>
+        <div class="frame">Where every flavor tells a story.
+            For the love of delicious food.
+            Sensory indulgence unlocked.
+            Your culinary adventure awaits.
+            Low cost. High quality.
+            We are always here to serve you.
+            Life is short, make it sweet.
+            A taste you'll remember.</div>
+
+    </div>
+    <div class="slider-track">
+        <!-- Original image set -->
+        <div class="frame"><img src="fish-dum-biryani.webp" width="250" height="250"></div>
+        <div class="frame"><img src="chicken-65-.jpg" width="250" height="250"></div>
+        <div class="frame"><img src="grilled chicken.jpg" width="250" height="250"></div>
+        <div class="frame"><img src="hyderabad chicken_dum_biryani.jpg" width="250" height="250"></div>
+        <div class="frame"><img src="full meal.jpg" width="250" height="250"></div>
+        <div class="frame"><img src="mutton briyani img.jpeg" width="250" height="250"></div>
+        <div class="frame"><img src="hy mutton briyani.webp" width="250" height="250"></div>
+
+        <!-- Duplicate image set -->
+        <div class="frame"><img src="fish-dum-biryani.webp" width="250" height="250"></div>
+        <div class="frame"><img src="chicken-65-.jpg" width="250" height="250"></div>
+        <div class="frame"><img src="grilled chicken.jpg" width="250" height="250"></div>
+        <div class="frame"><img src="hyderabad chicken_dum_biryani.jpg" width="250" height="250"></div>
+        <div class="frame"><img src="full meal.jpg" width="250" height="250"></div>
+        <div class="frame"><img src="mutton briyani img.jpeg" width="250" height="250"></div>
+        <div class="frame"><img src="hy mutton briyani.webp" width="250" height="250"></div>
+    </div>
+
+
+
+
+
+    <div class="div2">
+        <img src="full meal.jpg" alt="full meals" height="275px" width="230px">
+        <h2>hukum special meals</h2>
+    </div>
+    <h4>
+        boiled white rice \ sambar \ kara kolambu \ mutton kolambu \ chicken kolambu \ fish kolambu \ pachapuli rasam \
+        curd \ potato curry \ soya chilli \ payasam \ pappad \ salt \ pickle \ sweet bida \ jammun .
+    </h4>
+    <hr>
+    <div class="div3">
+        <img src="grilled chicken.jpg" alt="grilled chicken" height="275px" width="230px">
+        <h2>Grill aati </h2>
+    </div>
+
+    <h4 style="font-size: 1cm;color: rgb(247, 251, 254);margin-top:200px;"> Grilled Chicken Breast\Grilled Chicken
+        Thighs\Grilled Drumsticks\Grilled Chicken WingsWhole Grilled Chicken
+        \
+        BBQ Grilled Chicken\Lemon Herb Chicken\Cajun Grilled Chicken \Chipotle Grilled Chicken\Tandoori Chicken\.
+    </h4>
+    <hr>
+    <center>
+        <h1> Happily serving customers already at </h1>
+        <P style="color: rgb(240, 246, 246);">Chennai\Hyderabad\Mysore\Kochi\Madurai\Bangalore\Coimbatore\Thiruvananthapuram\Visakhapatnam\Karur</P>
+    </center>
+    <footer>
+        <p><strong>Contact:</strong> 9715723409</p>
+        <p><strong>Address:</strong> 1, Alagesan Road No. 2, Saibaba Colony, Coimbatore, TN 641011</p>
+        <p><strong>Available On:</strong> Swiggy & Zomato</p>
+        <p><strong>Hours:</strong> 11 AM – 11 PM</p>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
